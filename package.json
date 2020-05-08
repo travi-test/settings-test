@@ -1,0 +1,30 @@
+{
+  "name": "settings-test",
+  "description": "a repo for testing functionality of probot/settings",
+  "license": "MIT",
+  "repository": "travi-test/settings-test",
+  "bugs": "https://github.com/travi-test/settings-test/issues",
+  "homepage": "https://github.com/travi-test/settings-test#readme",
+  "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
+  "scripts": {
+    "test": "npm-run-all --print-label --parallel lint:*",
+    "lint:lockfile": "lockfile-lint --path package-lock.json --type npm --validate-https --allowed-hosts npm",
+    "lint:md": "remark . --frail",
+    "generate:md": "remark . --output",
+    "lint:sensitive": "ban",
+    "lint:travis": "travis-lint .travis.yml",
+    "lint:peer": "npm ls >/dev/null"
+  },
+  "devDependencies": {
+    "ban-sensitive-files": "1.9.7",
+    "commitlint-config-travi": "1.3.6",
+    "cz-conventional-changelog": "3.2.0",
+    "husky": "4.2.5",
+    "lockfile-lint": "4.2.2",
+    "npm-run-all": "4.1.5",
+    "remark-cli": "8.0.0",
+    "remark-preset-lint-travi": "1.3.6",
+    "remark-toc": "7.0.0",
+    "travis-lint": "1.0.0"
+  }
+}
