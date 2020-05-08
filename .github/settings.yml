@@ -4,4 +4,8 @@ repository:
   description: a repo for testing functionality of probot/settings
   homepage: 'https://github.com/travi-test/settings-test#readme'
   private: false
-  delete_branch_on_merge: true
+
+milestones:
+  - title: test-milestone
+    description: this is a test
+    state: open
