@@ -6,6 +6,10 @@ repository:
   private: false
   delete_branch_on_merge: true
 
+teams:
+  - name: triage
+    permissions: triage
+
 milestones:
   - title: test-milestone
     description: this is a test
