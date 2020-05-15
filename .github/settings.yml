@@ -8,7 +8,7 @@ repository:
 
 teams:
   - name: triage
-    permissions: triage
+    permissions: maintain
 
 milestones:
   - title: test-milestone
