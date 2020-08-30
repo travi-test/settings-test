@@ -18,7 +18,6 @@ milestones:
 branches:
   - name: master
     protection:
-      required_pull_request_reviews: null
       required_status_checks: null
       restrictions: null
       enforce_admins: true
