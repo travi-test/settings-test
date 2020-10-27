@@ -5,8 +5,8 @@ repository:
   homepage: 'https://github.com/travi-test/settings-test#readme'
   private: false
   delete_branch_on_merge: false
-  enable_automated_security_fixes: false
-  enable_vulnerability_alerts: false
+  enable_automated_security_fixes: true
+  enable_vulnerability_alerts: true
 
 teams:
   - name: triage
