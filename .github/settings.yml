@@ -43,3 +43,5 @@ branches:
         contexts: ['build']
       enforce_admins: false
       restrictions: null
+      allow_force_pushes: true
+      allow_deletions: true
