@@ -70,5 +70,5 @@ environments:
     deployment_branch_policy:
       protected_branches: true
     reviewers:
-      type: User
-      id: 1
+      - type: User
+        id: 1
