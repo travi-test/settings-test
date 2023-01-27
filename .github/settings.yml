@@ -64,3 +64,11 @@ branches:
         users: []
         teams: []
 
+environments:
+  - name: foo
+    wait_timer: 5
+    deployment_branch_policy:
+      protected_branches: true
+    reviewers:
+      type: User
+      id: 1
