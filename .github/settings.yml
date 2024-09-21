@@ -10,7 +10,7 @@ teams:
   - name: triage
     permission: triage
   - name: maintainers
-    permission: write
+    permission: admin
 
 milestones:
   - title: test-milestone
