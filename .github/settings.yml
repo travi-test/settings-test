@@ -3,7 +3,6 @@ repository:
   name: settings-test
   description: a repo for testing functionality of probot/settings
   homepage: 'https://github.com/travi-test/settings-test#readme'
-  private: false
   visibility: public
   delete_branch_on_merge: true
 
